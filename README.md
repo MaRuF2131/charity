@@ -52,13 +52,22 @@ Set up Firebase
 - Set up Firebase Hosting
 - Create a .env file in the root directory with your Firebase configuration
 
+📦 NPM Packages Used
+- react
+- react-dom
+- react-router-dom
+- react-hook-form
+- react-query
+- firebase
+- vite (development dependency)
+
 ## How to Run Locally
  1.
 Clone the repository
-git clone https://github.com/your-username/volunteer-management.git
-cd volunteer-management
-npm install
-npm run dev 
+- git clone https://github.com/MaRuF2131/charity.git
+- cd charity
+- npm install
+- npm run dev 
 
 
 
