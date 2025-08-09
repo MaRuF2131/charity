@@ -1,36 +1,55 @@
-# React + Vite
+# Charity (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-## Assignment 11 - Category 10
+**Live demo:** https://cherity.web.app
 
-**Purpose:**  
-This project demonstrates a React application built with Vite, showcasing modern frontend development practices and efficient tooling.
+---
 
-**Live URL:**  
-https://cherity.web.app
+## 🔎 Description
+A modern React + Vite frontend built for the Charity / Tourism assignment — a responsive single-page app demonstrating common features of a production-style web app (routing, components, API integration, authentication-ready structure). Live demo hosted with Firebase. :contentReference[oaicite:1]{index=1}
 
-**Key Features:**
-- Fast development with Vite and HMR (Hot Module Replacement)
-- React functional components and hooks
-- ESLint integration for code quality
-- Easy plugin support and configuration
+---
 
+## 🔗 Live Project
+- **Demo:** https://cherity.web.app
 
-**NPM Packages Used:**
-- `react`
-- `react-dom`
-- `vite`
-- `@vitejs/plugin-react`
-- `eslint`
-- (Add any additional packages you have used)
+---
+
+## 🧰 Technologies Used
+- React, React DOM  
+- Vite (development build tool)  
+- @vitejs/plugin-react, ESLint  
+- Tailwind CSS / PostCSS (configuration present)  
+- Firebase (hosting/config files included)  
+> These base packages and tools are referenced in the repo. :contentReference[oaicite:2]{index=2}
 
 
+---
 
-Currently, two official plugins are available:
+## ✨ Core Features
+- Responsive UI built with React and Vite
+- Component-based architecture and modern React hooks
+- ESLint integrated for code quality
+- Ready for Firebase hosting (firebase.json, .firebaserc present)
+- Sample pages for tours/charity listings (UI & interactions)
+- Simple deployment-ready configuration (Vite + Firebase) :contentReference[oaicite:3]{index=3}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📦 Dependencies (high-level)
+(See `package.json` for exact versions)
+- react, react-dom
+- vite, @vitejs/plugin-react
+- eslint (and possibly other dev dependencies)
+- Tailwind / PostCSS config files present
+> Exact package list is in the repo `package.json`. :contentReference[oaicite:4]{index=4}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Run Locally (Step-by-step)
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/MaRuF2131/charity.git
+cd charity
+npm install
+npm run dev
